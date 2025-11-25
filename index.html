@@ -118,6 +118,23 @@
             content: "- ";
         }
 
+        /* BLOG/NOTES STYLES */
+        .blog-entry {
+            margin-bottom: 1.5rem;
+        }
+        
+        .blog-title {
+            font-style: italic; 
+            font-size: 1.3rem; 
+        }
+
+        .blog-desc {
+            margin-top: 0.2rem;
+            color: #444;
+            font-size: 1rem; 
+            margin-left: 1.5rem; /* Indented suitably */
+        }
+
         /* TAB LOGIC */
         .tab-content {
             display: none;
@@ -224,7 +241,20 @@
         </div>
 
         <div id="blog" class="tab-content">
-            <h2>Blog</h2>
+            <!-- You can change this title to "Notes", "Expository", etc. -->
+            <div class="cv-section-title">Notes & Writings</div>
+
+            <!-- Note 1 -->
+            <div class="blog-entry">
+                <div class="blog-title">
+                    1. <a href="Yang-Mills Learning Seminar: Shen-Zhu-Zhu ’22, Part II.pdf" target="_blank">Yang-Mills Learning Seminar: Shen-Zhu-Zhu ’22, Part II</a>
+                </div>
+                <div class="blog-desc">
+                    An exposition to Section 4.1 of "A stochastic analysis approach to lattice Yang–Mills at strong coupling" by Shen-Zhu-Zhu (2022).
+                    I based my talk at a learning seminar on these notes.
+                </div>
+            </div>
+            
         </div>
 
     </div>
